@@ -1,0 +1,49 @@
+body {
+    background-color: #000
+}
+.nav-justified {
+    margin: 18px 0 14px
+}
+.nav-justified a {
+    color: #fff
+}
+.nav-justified a:hover {
+    color: #333
+}
+#content-form-top {
+    background-color: rgba(255, 255, 255, 0.66);
+    padding: 15px;
+    position: absolute;
+    right: 40px;
+    z-index: 2;
+}
+#content-form-top h3 {
+    color: #FF0000
+}
+#content-form-top form {
+    width: 290px
+}
+.content-page {
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.content-prefooter {
+    color: #fff;
+    background-color: #F2F2F2
+}
+.content-prefooter h3 {
+    color: #4D4D4D !important
+}
+.content-prefooter img {
+    margin-bottom: 10px
+}
+footer {
+    background-color: #F72121;
+    padding: 10px;
+    color: #FFF;
+    margin-top: 20px;
+}
+.mb0 {
+    margin-bottom: 0
+}

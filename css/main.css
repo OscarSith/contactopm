@@ -1,0 +1,93 @@
+body {
+    background-color: #f2f2f2
+}
+.container {
+    background-color: #000
+}
+.nav-justified {
+    margin: 18px 0 14px
+}
+.nav-justified a {
+    color: #fff
+}
+.nav-justified a:hover {
+    color: #333
+}
+#content-form-top {
+    background-color: rgba(255, 255, 255, 0.66);
+    padding: 15px;
+    position: absolute;
+    right: 40px;
+    z-index: 2;
+}
+#content-form-top h3 {
+    color: #FF0000;
+    font-weight: normal;
+    margin-bottom: 19px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px #333;
+}
+#content-form-top form {
+    width: 290px
+}
+.content-page {
+    color: #fff;
+    padding: 40px 20px;
+}
+.content-prefooter {
+    color: #333;
+    padding:20px;
+    background-color: #F2F2F2;
+}
+.content-prefooter h3 {
+    color: #4D4D4D !important
+}
+.content-prefooter img {
+    margin-bottom: 10px
+}
+footer {
+    background-color: #F72121;
+    padding: 10px;
+    color: #FFF;
+    margin-top: 20px;
+}
+.mb0 {
+    margin-bottom: 0
+}
+.box-us {
+    background-color: #FFF;
+    color: #333;
+    border: 4px #F00 solid;
+    padding: 02px 15px;
+}
+#servicios {
+    background-color: #FFF;
+    color: #000;
+    margin: 10px;
+    padding: 20px 30px;
+}
+.type-latin {
+    list-style-type: lower-latin;
+}
+#list-services {
+    margin-top: 45px
+}
+#list-services li {
+    border: 2px solid #E6E6E6;
+    margin-bottom: 12px;
+    padding: 10px;
+}
+#content-two-services {
+    margin: 30px 0
+}
+#content-two-services .boxes {
+    border: 1px solid #F00;
+    height: 65px;
+    padding-top: 12px;
+}
+#content-two-services .boxes p {
+    margin-bottom: 0
+}
+#content-form-top .form-group {
+    margin-bottom: 11px
+}

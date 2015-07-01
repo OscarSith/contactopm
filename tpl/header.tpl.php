@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
@@ -23,11 +23,11 @@
                     <img src="img/logo.png" alt="Logo contactopm" id="logo" class="center-block">
                     <nav class="col-sm-6 col-sm-offset-3">
                         <ul class="nav nav-pills nav-justified">
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#">NOSOTROS</a></li>
-                            <li><a href="#">SERVICIOS</a></li>
+                            <li><a href="index.php">HOME</a></li>
+                            <li><a href="nosotros.php">NOSOTROS</a></li>
+                            <li><a href="servicio.php">SERVICIOS</a></li>
                             <li><a href="#">POSTULA</a></li>
-                            <li><a href="#">CONTACTANOS</a></li>
+                            <li><a href="contacto.php">CONTACTANOS</a></li>
                         </ul>
                     </nav>
                     <div class="clearfix"></div>
@@ -79,36 +79,3 @@
                         </div>
                     </div>
                 </section>
-                <section class="content-page">
-                    <div class="row">
-                        <div class="col-sm-5">
-                            <img src="img/img_home.jpg" alt="" class="center-block">
-                        </div>
-                        <div class="col-sm-7">
-                            <h4><i>LA EMPRESA</i></h4>
-                            <p>Somos una organización que brinda un servicio de calidad, con la finalidad de apoyar al crecimiento y fortalecimiento de las empresas, cumpliendo los requerimientos establecidos por la legislación laboral vigente, tomando en cuenta los conceptos fundamentales de la administración del personal y gestión del talento humano.</p>
-                            <br>
-                            <p>Marcando la diferencia en el mercado debido a que nuestra razón es ser un aliado estratégico para el crecimiento de su organización sin dejar de lado la calidad humana como principal activo.</p>
-                            <a href="#" class="pull-right btn btn-danger">Ver más</a>
-                        </div>
-                    </div>
-                </section>
-                <section class="content-prefooter">
-                    <div class="row">
-                        <h3 class="text-center">Algunos de nuestros clientes de confianza</h3>
-                        <img src="img/img-footer.png" alt="" class="center-block">
-                    </div>
-                </section>
-                <footer>
-                    <address class="mb0">
-                        info@contactopm.com<br>
-                        Telf: 01 - 540 2887<br>
-                        Jr. Ismael Bielich flores 927 Urb. prolongación Benavídes. Santiago de Surco
-                    </address>
-                </footer>
-            </div>
-        </div>
-        <script src="js/vendor/jquery-1.11.2.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-    </body>
-</html>

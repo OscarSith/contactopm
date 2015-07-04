@@ -20,13 +20,13 @@
 					<div class="form-group">
 						<label for="" class="control-label col-sm-4">DNI</label>
 						<div class="col-sm-8">
-							<input type="email" class="form-control" name="dni" required>
+							<input type="text" class="form-control" name="dni" required>
 						</div>
 					</div>
 					<div class="form-group">
 						<label for="" class="control-label col-sm-4">Teléfono</label>
 						<div class="col-sm-8">
-							<input type="email" class="form-control" name="telefono">
+							<input type="text" class="form-control" name="telefono">
 						</div>
 					</div>
 					<div class="form-group">
@@ -35,6 +35,17 @@
 							<textarea class="form-control" name="mensaje" style="height: 90px"></textarea>
 						</div>
 					</div>
+					<?php if (isset($_SESSION['MESSAGE'])): ?>
+						<div class="form-group">
+							<div class="alert alert-danger alert-dismissible fade in" role="alert">
+								<?php echo $_SESSION['MESSAGE'] ?>
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<?php unset($_SESSION['MESSAGE']) ?>
+						</div>
+					<?php endif ?>
 					<div class="form-group">
 						<div class="col-sm-offset-4 col-sm-8">
 							<button class="btn btn-danger">Enviar</button>

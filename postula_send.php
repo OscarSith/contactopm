@@ -41,14 +41,17 @@ if($_POST) {
 				try {
 					$mail = new PHPMailer();
 
+					$mail->isSMTP();
+					$mail->SMTPAuth = true;
+					$mail->Host = 'smtp.mandrillapp.com';
+					$mail->Username = 'larriega@gmail.com';
+					$mail->Password = '';
+					$mail->SMTPSecure = 'tls';
+					$mail->CharSet = 'UTF-8';
+					$mail->Port = 587;
+
 					$mail->From     = 'no-reply@contactopm.com';
 					$mail->FromName = 'Contactopm';
-					$mail->Subject = 'Web de contactopm';
-					$mail->Host     = 'localhost';
-					$mail->Mailer   = 'smtp';
-					$mail->Username = 'root';
-					$mail->Password = 'root';
-					$mail->CharSet = 'UTF-8';
 
 					$body = '<h2>De: '.$values['nombres'].'</h2>'
 							.'<ul><li>Correo electrónico: '.$values['correo'].'</li>'
@@ -62,6 +65,7 @@ if($_POST) {
 							.'DNI: '.$values['dni']."\n"
 							.'Mensaje: '.$values['mensaje'];
 
+				    $mail->Subject = 'Web de contactopm';
 					$mail->Body    = $body;
 				    $mail->AltBody = $text_body;
 				    $mail->addAddress('larriega@gmail.com', 'Oscar Larriega');

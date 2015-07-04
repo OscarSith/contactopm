@@ -33,14 +33,17 @@ if($_POST) {
 		try {
 			$mail = new PHPMailer();
 
-			$mail->From     = 'no-reply@example.com';
-			$mail->FromName = 'Marketing Digital';
-
-			$mail->Mailer   = 'smtp';
-			$mail->Host     = 'smtp.mandrillapp.com';
+			$mail->isSMTP();
+			$mail->SMTPAuth = true;
+			$mail->Host = 'smtp.mandrillapp.com';
 			$mail->Username = 'larriega@gmail.com';
 			$mail->Password = '';
+			$mail->SMTPSecure = 'tls';
 			$mail->CharSet = 'UTF-8';
+			$mail->Port = 587;
+
+			$mail->From     = 'no-reply@example.com';
+			$mail->FromName = 'Marketing Digital';
 
 			$body = '<h2>De: '.$values['nombres'].'</h2>'
 					.'<ul><li>Correo electrónico: '.$values['correo'].'</li>'
@@ -67,7 +70,7 @@ if($_POST) {
 		    }
 		    else
 		    {
-		    	$message = 'Ups.. no se pudo enviar el correo a esta direccion: "'.$values['correo'].'", intentelo de nuevo';
+		    	$message = 'Ups.. no se pudo enviar el correo, intentelo de nuevo';
 		    }
 
 		    // Clear all addresses and attachments for next loop

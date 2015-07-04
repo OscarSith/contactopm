@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <!DOCTYPE html>
 <html class="no-js" lang="">
     <head>
@@ -26,7 +27,7 @@
                             <li><a href="index.php">HOME</a></li>
                             <li><a href="nosotros.php">NOSOTROS</a></li>
                             <li><a href="servicio.php">SERVICIOS</a></li>
-                            <li><a href="#">POSTULA</a></li>
+                            <li><a href="postula.php">POSTULA</a></li>
                             <li><a href="contacto.php">CONTACTANOS</a></li>
                         </ul>
                     </nav>

@@ -91,3 +91,18 @@ footer {
 #content-form-top .form-group {
     margin-bottom: 11px
 }
+footer address p {
+    display: block;
+    background-image: url('../img/icons.png');
+    background-repeat: no-repeat;
+    padding-left: 22px;
+}
+#contact-email {
+    background-position:  0px 0px
+}
+#contact-phone {
+    background-position: 0px -24px
+}
+#contact-address {
+    background-position: 0px -48px
+}

@@ -4,7 +4,7 @@
 		<h3 class="page-header">CONTACTANOS</h3>
 		<div class="row">
 			<div class="col-sm-6">
-				<form action="#" class="form-horizontal" id="frm-contact">
+				<form action="send.php" method="post" class="form-horizontal" id="frm-contact">
 					<div class="form-group">
 						<label for="" class="control-label col-sm-4">Nombres</label>
 						<div class="col-sm-8">

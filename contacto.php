@@ -36,15 +36,13 @@
 						</div>
 					</div>
 					<?php if (isset($_SESSION['MESSAGE'])): ?>
-						<div class="form-group">
-							<div class="alert alert-danger alert-dismissible fade in" role="alert">
-								<?php echo $_SESSION['MESSAGE'] ?>
-								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-									<span aria-hidden="true">&times;</span>
-								</button>
-							</div>
-							<?php unset($_SESSION['MESSAGE']) ?>
+						<div class="alert alert-info alert-dismissible fade in" role="alert">
+							<?php echo $_SESSION['MESSAGE'] ?>
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
 						</div>
+						<?php unset($_SESSION['MESSAGE']) ?>
 					<?php endif ?>
 					<div class="form-group">
 						<div class="col-sm-offset-4 col-sm-8">

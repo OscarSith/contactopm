@@ -42,8 +42,8 @@ if($_POST) {
 			$mail->CharSet = 'UTF-8';
 			$mail->Port = 587;
 
-			$mail->From     = 'no-reply@example.com';
-			$mail->FromName = 'Marketing Digital';
+			$mail->From     = 'no-reply@contactopm.com';
+			$mail->FromName = 'contactopm.com';
 
 			$body = '<h2>De: '.$values['nombres'].'</h2>'
 					.'<ul><li>Correo electrónico: '.$values['correo'].'</li>'
@@ -61,11 +61,12 @@ if($_POST) {
 			$mail->Body    = $body;
 		    $mail->AltBody = $text_body;
 		    $mail->addAddress('larriega@gmail.com', 'Oscar Larriega');
+		    $mail->addAddress($values['correo'], $values['nombres']);
 		    // $mail->AddCC('dantebecerra2013@artedangi.com');
 
 		    if($mail->send())
 		    {
-		    	$message = 'Gracias por registrarte';
+		    	$message = 'Tu mensaje ha sido enviado.';
 		    	$load = true;
 		    }
 		    else

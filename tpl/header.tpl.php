@@ -21,6 +21,14 @@
         <div class="row">
             <div class="container">
                 <header>
+                    <div id="socials">
+                        <img src="img/redes.png" alt="">
+                        <ul class="list-unstyled">
+                            <li class="pull-left"><a href="#" id="fb">F</a></li>
+                            <li class="pull-left"><a href="#" id="yt">Y</a></li>
+                            <li class="pull-left"><a href="#" id="tw">T</a></li>
+                        </ul>
+                    </div>
                     <img src="img/logo.png" alt="Logo contactopm" id="logo" class="center-block">
                     <nav class="col-sm-6 col-sm-offset-3">
                         <ul class="nav nav-pills nav-justified">

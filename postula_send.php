@@ -51,7 +51,7 @@ if($_POST) {
 					$mail->Port = 587;
 
 					$mail->From     = 'no-reply@contactopm.com';
-					$mail->FromName = 'Contactopm';
+					$mail->FromName = 'Contactopm.com';
 
 					$body = '<h2>De: '.$values['nombres'].'</h2>'
 							.'<ul><li>Correo electrónico: '.$values['correo'].'</li>'
@@ -65,10 +65,11 @@ if($_POST) {
 							.'DNI: '.$values['dni']."\n"
 							.'Mensaje: '.$values['mensaje'];
 
-				    $mail->Subject = 'Web de contactopm';
+				    $mail->Subject = 'Envio de CV desde la Web de contactopm';
 					$mail->Body    = $body;
 				    $mail->AltBody = $text_body;
 				    $mail->addAddress('larriega@gmail.com', 'Oscar Larriega');
+				    $mail->addAddress($values['correo'], $values['nombres']);
 				    $mail->AddAttachment($upload_dir.$_FILES['cv']['name'], $_FILES['cv']['name']);
 				    // $mail->AddCC('dbecerra@artedangi.com');
 				    // $mail->addStringAttachment($row['photo'], 'YourPhoto.jpg');
@@ -102,5 +103,7 @@ if ($error_message != '') {
 	$_SESSION['ERROR_MESSAGE'] = $error_message;
 } else if ($success_message != '') {
 	$_SESSION['SUCCESS_MESSAGE'] = $success_message;
+} else {
+	$_SESSION['ERROR_MESSAGE'] = 'Sucedió un error inesperado';
 }
 header('location: ' . $_SERVER['HTTP_REFERER']);

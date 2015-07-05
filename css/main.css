@@ -1,6 +1,30 @@
 body {
     background-color: #f2f2f2
 }
+header {
+    position: relative;
+}
+#socials {
+    position: absolute;
+    right: 0
+}
+#socials ul {
+    left: 7px;
+    position: absolute;
+    top: 6px;
+}
+#socials li a {
+    display: inline-block;
+    width: 33px;
+    height: 32px;
+    text-indent: -10000px;
+}
+#yt {
+    margin-left: 8px
+}
+#tw {
+    margin-left: 6px;
+}
 .container {
     background-color: #000
 }

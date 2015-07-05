@@ -22,7 +22,7 @@
 					<div class="form-group">
 						<label for="" class="control-label col-sm-4">Nombres y Apellidos</label>
 						<div class="col-sm-8">
-							<input type="text" class="form-control" name="full_name">
+							<input type="text" class="form-control" name="nombres">
 						</div>
 					</div>
 					<div class="form-group">
@@ -56,14 +56,14 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<?php if (isset($_SESSION['MESSAGE'])): ?>
-						<div class="alert alert-info alert-dismissible fade in" role="alert">
-							<?php echo $_SESSION['MESSAGE'] ?>
+						<?php if (isset($_SESSION['ERROR_MESSAGE'])): ?>
+						<div class="alert alert-danger alert-dismissible fade in" role="alert">
+							<?php echo $_SESSION['ERROR_MESSAGE'] ?>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
-						<?php unset($_SESSION['MESSAGE']) ?>
+						<?php unset($_SESSION['ERROR_MESSAGE']) ?>
 					<?php endif ?>
 					</div>
 					<div class="col-sm-offset-4">

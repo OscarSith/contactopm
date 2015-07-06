@@ -9,14 +9,18 @@
             <p>Somos una organización que brinda un servicio de calidad, con la finalidad de apoyar al crecimiento y fortalecimiento de las empresas, cumpliendo los requerimientos establecidos por la legislación laboral vigente, tomando en cuenta los conceptos fundamentales de la administración del personal y gestión del talento humano.</p>
             <br>
             <p>Marcando la diferencia en el mercado debido a que nuestra razón es ser un aliado estratégico para el crecimiento de su organización sin dejar de lado la calidad humana como principal activo.</p>
-            <a href="#" class="pull-right btn btn-danger">Ver más</a>
+            <a href="nosotros.php" class="pull-right btn btn-danger">Ver más</a>
         </div>
     </div>
 </section>
 <section class="content-prefooter">
     <div class="row">
         <h3 class="text-center">Algunos de nuestros clientes de confianza</h3>
-        <img src="img/img-footer.png" alt="" class="center-block">
+        <ul class="nav nav-pills nav-justified">
+            <li><img src="img/clientes/cliente1.png" alt="" class="img-responsive center-block"></li>
+            <li><img src="img/clientes/cliente2.png" alt="" class="img-responsive center-block"></li>
+            <li><img src="img/clientes/cliente3.png" alt="" class="img-responsive center-block"></li>
+        </ul>
     </div>
 </section>
 <?php include 'tpl/footer.tpl.php' ?>

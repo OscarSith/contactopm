@@ -1,5 +1,5 @@
 body {
-    background-color: #f2f2f2
+    background-color: #000
 }
 header {
     position: relative;
@@ -75,13 +75,17 @@ footer {
     color: #FFF;
     margin-top: 20px;
 }
+#banners {
+    border-top: 8px solid #E82121;
+    position: relative;
+}
 .mb0 {
     margin-bottom: 0
 }
 .box-us {
     background-color: #FFF;
     color: #333;
-    border: 4px #F00 solid;
+    border: 4px #E82121 solid;
     padding: 02px 15px;
 }
 #servicios {
@@ -105,12 +109,13 @@ footer {
     margin: 30px 0
 }
 #content-two-services .boxes {
-    border: 1px solid #F00;
+    border: 1px solid #E82121;
     height: 65px;
     padding-top: 12px;
 }
 #content-two-services .boxes p {
-    margin-bottom: 0
+    margin-bottom: 0;
+    font-weight: bold;
 }
 #content-form-top .form-group {
     margin-bottom: 11px

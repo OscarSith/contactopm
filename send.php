@@ -10,7 +10,8 @@ if($_POST) {
 		'correo' => FILTER_VALIDATE_EMAIL,
 		'dni' => FILTER_SANITIZE_STRING,
 		'telefono' => FILTER_SANITIZE_STRING,
-		'mensaje' => FILTER_SANITIZE_STRING
+		'mensaje' => FILTER_SANITIZE_STRING,
+		'fast_message' => FILTER_SANITIZE_STRING,
 	);
 	$values = filter_input_array(INPUT_POST, $args);
 
@@ -85,5 +86,10 @@ if($_POST) {
 	$message = 'Petición inválida';
 }
 
-$_SESSION['MESSAGE'] = $message;
+if (isset($values['fast_message'])) {
+	$_SESSION['MESSAGE_TOP'] = $message;
+} else {
+	$_SESSION['MESSAGE'] = $message;
+}
+
 header('location: '.$_SERVER['HTTP_REFERER']);

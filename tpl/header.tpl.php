@@ -41,27 +41,28 @@
                     </nav>
                     <div class="clearfix"></div>
                 </header>
-                <section style="position: relative;">
+                <section id="banners">
                     <div id="content-form-top">
-                        <form action="#">
+                        <form action="send.php" method="post">
+                            <input type="hidden" name="fast_message" value="on">
                             <h3 class="text-center">SOLICITAR MAS<br>INFORMACIÓN</h3>
                             <div class="form-group">
-                                <input type="text" name="name" class="form-control" placeholder="NOMBRES">
+                                <input type="text" name="nombres" class="form-control" placeholder="NOMBRES">
                             </div>
                             <div class="form-group">
-                                <input type="text" name="phone" class="form-control" placeholder="TELÉFONO">
+                                <input type="text" name="telefono" class="form-control" placeholder="TELÉFONO">
                             </div>
                             <div class="form-group">
-                                <input type="email" name="email" class="form-control" placeholder="EMAIL">
+                                <input type="email" name="correo" class="form-control" placeholder="EMAIL">
                             </div>
                             <div class="form-group">
                                 <input type="text" name="dni" class="form-control" placeholder="DNI">
                             </div>
                             <div class="form-group">
-                                <textarea name="message" class="form-control" placeholder="MENSAJE"></textarea>
+                                <textarea name="mensaje" class="form-control" placeholder="MENSAJE"></textarea>
                             </div>
                             <div class="text-center">
-                                <buttom class="btn btn-danger">Enviar</buttom>
+                                <button class="btn btn-danger">Enviar</button>
                             </div>
                         </form>
                     </div>

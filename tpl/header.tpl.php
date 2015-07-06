@@ -42,7 +42,7 @@
                     <div class="clearfix"></div>
                 </header>
                 <section id="banners">
-                    <div id="content-form-top">
+                    <div id="content-form-top" class="hidden-xs">
                         <form action="send.php" method="post">
                             <input type="hidden" name="fast_message" value="on">
                             <h3 class="text-center">SOLICITAR MAS<br>INFORMACIÓN</h3>

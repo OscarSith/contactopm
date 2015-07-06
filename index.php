@@ -17,9 +17,9 @@
     <div class="row">
         <h3 class="text-center">Algunos de nuestros clientes de confianza</h3>
         <ul class="nav nav-pills nav-justified">
-            <li><img src="img/clientes/cliente1.png" alt="" class="img-responsive center-block"></li>
-            <li><img src="img/clientes/cliente2.png" alt="" class="img-responsive center-block"></li>
-            <li><img src="img/clientes/cliente3.png" alt="" class="img-responsive center-block"></li>
+            <li><img src="img/clientes/cliente1.png" alt="Cliente 1" class="img-responsive center-block pull-right"></li>
+            <li><img src="img/clientes/cliente2.png" alt="Cliente 2" class="img-responsive center-block"></li>
+            <li><img src="img/clientes/cliente3.png" alt="Cliente 3" class="img-responsive center-block pull-left"></li>
         </ul>
     </div>
 </section>

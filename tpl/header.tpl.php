@@ -24,6 +24,7 @@
                     <div id="socials">
                         <img src="img/redes.png" alt="">
                         <ul class="list-unstyled">
+                            <li class="pull-left"><a href="#" id="in">L</a></li>
                             <li class="pull-left"><a href="#" id="fb">F</a></li>
                             <li class="pull-left"><a href="#" id="yt">Y</a></li>
                             <li class="pull-left"><a href="#" id="tw">T</a></li>
@@ -66,25 +67,29 @@
                             </div>
                         </form>
                     </div>
-                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <div id="home-slider" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                            <li data-target="#home-slider" data-slide-to="0" class="active"></li>
+                            <li data-target="#home-slider" data-slide-to="1"></li>
+                            <li data-target="#home-slider" data-slide-to="2"></li>
+                            <li data-target="#home-slider" data-slide-to="3"></li>
+                            <li data-target="#home-slider" data-slide-to="4"></li>
                         </ol>
                         <div class="carousel-inner" role="listbox">
                             <div class="item active">
-                                <img src="img/banner/banner1.png" alt="...">
+                                <img src="img/banner/BANNER1.jpg" alt="...">
                             </div>
                             <div class="item">
-                                <img src="img/banner/banner2.png" alt="...">
+                                <img src="img/banner/BANNER2.jpg" alt="...">
                             </div>
                             <div class="item">
-                                <img src="img/banner/banner3.png" alt="...">
+                                <img src="img/banner/BANNER3.jpg" alt="...">
                             </div>
                             <div class="item">
-                                <img src="img/banner/banner4.png" alt="...">
+                                <img src="img/banner/BANNER4.jpg" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="img/banner/BANNER5.jpg" alt="...">
                             </div>
                         </div>
                     </div>

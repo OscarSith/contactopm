@@ -2,7 +2,7 @@
 					<address class="mb0">
 						<p id="contact-email">info@contactopm.com</p>
 						<p id="contact-phone">Telf: 01 - 540 2887</p>
-						<p id="contact-address">Jr. Ismael Bielich flores 927 Urb. prolongación Benavídes. Santiago de Surco</p>
+						<p id="contact-address">Jr. Ismael Bielich 927 Urb. prolongación Benavídes. Santiago de Surco</p>
 					</address>
 				</footer>
 			</div>

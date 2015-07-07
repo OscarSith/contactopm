@@ -4,7 +4,7 @@
 		<h3 class="page-header">NUESTRO SERVICIO</h3>
 		<div class="row">
 			<div class="col-sm-6" style="border-right: 6px solid #E6E6E6">
-				<p>1. Reclutamiento y Selección de Personal:</p>
+				<h5 class="mt0">1. Reclutamiento y Selección de Personal:</h5>
 				<ol class="type-latin">
 					<li>Tiempo estimado del proceso, según las características solicita das del perfil.</li>
 					<li>Proceso que se realizara</li>
@@ -18,7 +18,7 @@
 				</ul>
 			</div>
 			<div class="col-sm-6">
-				<p>2. Administración y pago de planillas:</p>
+				<h5 class="mt0">2. Administración y pago de planillas:</h5>
 				<p>Registro:</p>
 				<ol class="type-latin">
 					<li>T-Registro</li>
@@ -38,7 +38,7 @@
 						</div>
 					</div>
 				</div>
-				<p>3. Evaluación, capacitación y Training Empresarial</p>
+				<h5 class="mt0">3. Evaluación, capacitación y Training Empresarial</h5>
 				<p>Ofrecemos:</p>
 				<ul>
 					<li>Confidencialidad con su información</li>

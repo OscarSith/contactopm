@@ -55,6 +55,7 @@
 				<p>Muchas gracias por ponerte en contacto con Contactopm, Completa el formulario y te haremos llegar información sobre nuestros servicios y responder tu comentario.</p>
 				<p>Uno de los miembros de nuestro equipo dará respuesta a tus consultas lo más pronto posible.</p>
 				<br>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.683361524465!2d-76.98317453907535!3d-12.133803844372062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b87312428d59%3A0xeefc4846d542ff06!2sJir%C3%B3n+Ismael+Bielich+Flores+927%2C+Santiago+de+Surco+15039!5e0!3m2!1ses-419!2spe!4v1436279994420" width="285" height="260" frameborder="0" style="border:0" allowfullscreen class="pull-left"></iframe>
 				<img src="img/contacto.jpg" alt="" class="img-responsive pull-right">
 			</div>
 		</div>

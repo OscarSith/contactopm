@@ -26,7 +26,6 @@
                         <ul class="list-unstyled">
                             <li class="pull-left"><a href="#" id="in">L</a></li>
                             <li class="pull-left"><a href="#" id="fb">F</a></li>
-                            <li class="pull-left"><a href="#" id="yt">Y</a></li>
                             <li class="pull-left"><a href="#" id="tw">T</a></li>
                         </ul>
                     </div>

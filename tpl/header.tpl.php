@@ -89,7 +89,7 @@
                                 <img src="img/banner/BANNER4.jpg" alt="...">
                             </div>
                             <div class="item">
-                                <img src="img/banner/BANNER5.jpg" alt="...">
+                                <img src="img/banner/banner5.jpg" alt="...">
                             </div>
                         </div>
                     </div>

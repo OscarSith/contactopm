@@ -30,12 +30,12 @@
                         </ul>
                     </div>
                     <img src="img/logo.png" alt="Logo contactopm" id="logo" class="center-block">
-                    <nav class="col-sm-6 col-sm-offset-3">
+                    <nav class="col-sm-8 col-sm-offset-2">
                         <ul class="nav nav-pills nav-justified">
                             <li><a href="index.php">HOME</a></li>
                             <li><a href="nosotros.php">NOSOTROS</a></li>
                             <li><a href="servicio.php">SERVICIOS</a></li>
-                            <li><a href="postula.php">¿BUSCAS TRABAJO?</a></li>
+                            <li><a href="postula.php" style="white-space:nowrap">¿BUSCAS TRABAJO?</a></li>
                             <li><a href="contacto.php">CONTACTANOS</a></li>
                         </ul>
                     </nav>

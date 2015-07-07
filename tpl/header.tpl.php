@@ -1,18 +1,16 @@
 <?php session_start() ?>
 <!DOCTYPE html>
-<html class="no-js" lang="">
+<html class="no-js" lang="es">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Contactopm</title>
+        <meta name="author" content="Oscar Larriega <larriega@gmail.com>">
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
-
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -24,9 +22,9 @@
                     <div id="socials">
                         <img src="img/redes.png" alt="">
                         <ul class="list-unstyled">
-                            <li class="pull-left"><a href="#" id="in">L</a></li>
-                            <li class="pull-left"><a href="#" id="fb">F</a></li>
-                            <li class="pull-left"><a href="#" id="tw">T</a></li>
+                            <li class="pull-left"><a href="https://www.linkedin.com/company/contacto-personnel-management" target="_blank" id="in">L</a></li>
+                            <li class="pull-left"><a href="https://www.facebook.com/ContactoPM" target="_blank" id="fb">F</a></li>
+                            <li class="pull-left"><a href="https://twitter.com/ContactoPm" target="_blank" id="tw">T</a></li>
                         </ul>
                     </div>
                     <img src="img/logo.png" alt="Logo contactopm" id="logo" class="center-block">

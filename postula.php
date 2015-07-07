@@ -1,7 +1,7 @@
 <?php include 'tpl/header.tpl.php' ?>
 <section class="content-page">
 	<div id="servicios">
-		<h2 class="page-header">¿BUSCAS TRABAJO?</h2>
+		<h2 class="page-header">POSTULA</h2>
 		<div class="row">
 			<div class="col-sm-6">
 				<h4>Oportunidades Laborales</h4>
